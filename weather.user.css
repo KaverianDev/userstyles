@@ -1,0 +1,11 @@
+/* ==UserStyle==
+@name           Weather Dashboard - Remove Rounded Corners
+@namespace      github.com/openai
+@version        1.0.0
+@description    Removes all rounded corners from the Weather Dashboard site.
+@match          https://virag-ky-weather-dashboard.netlify.app/*
+==/UserStyle== */
+
+* {
+    border-radius: 0 !important;
+}
